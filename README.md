@@ -6,10 +6,10 @@ How to Run the Program
      pip install streamlit pandas matplotlib bcrypt streamlit-option-menu openpyxl
 
 2. Create the Program File:
-   - Copy and paste the code into a file named app.py.
+   - Copy and paste the code into a file named main.py.
 
 3. Create Credentials File:
-   - In the same folder as app.py, create a file called credentials.txt.
+   - In the same folder as main.py, create a file called credentials.txt.
    - Leave this file empty initially (new users will be added via the signup process).
 
 4. Prepare the Sales Excel File:
@@ -18,7 +18,7 @@ How to Run the Program
 5. Run the Streamlit App:
    - Open your terminal in the folder where app.py is located.
    - Run the following command:
-     streamlit run app.py
+     streamlit run main.py
 
 6. Usage:
    - The app will open in your default browser.
